@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 @font-face{
     font-family: 'MyWebFont';
-    src: url('Jonah.ttf') format('truetype');
+    src: url('MEDIA/fonts/jonah.ttf') format('truetype');
 }
 
 *{
@@ -176,7 +176,7 @@ footer{
     text-align: center;
 }
 
-#formNuevoAn{
+#formularioAnuncio{
     display: flex;
     flex-direction: column;
     border: solid #263960 3px; 

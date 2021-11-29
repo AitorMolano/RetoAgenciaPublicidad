@@ -76,33 +76,16 @@
         </div>
     </div>
 </div>
-<div id="crearAnuncio">
-        <h1>Crear Anuncio</h1>
-        <form id="formularioAnuncio">
-            <input type="text" name="titulo" id="tituloAnuncio"placeholder="Titulo*" />
-            <textarea cols="30" rows="10" name="descripcion" id="descAnuncio" placeholder="Descripcion*"></textarea>
-            <input type="text" name="precio" id="precioAnuncio" placeholder="Precio*">
-            <select name="selectCat" id="selCategorias" required>
-                <option value="01" selected>Seleccione una categoria*</option>
-                <option value="">Casa y Jardin</option>
-                <option value="">Informatica</option>
-                <option value="">Imagen y sonido</option>
-                <option value="">Juegos</option>
-                <option value="">Moviles y telefonia</option>
-                <option value="">Moda y complementos</option>
-                <option value="">Deportes</option>
-                <option value="">Mascotas</option>
-                <option value="">Aficiones y Ocio</option>
-                <option value="">Motor</option>
-                <option value="">Caza y Pesca</option>
-            </select>
-            <input type="file" id="fotoAnuncio" name="imagen"/>
-            <label>¿Quieres publicar este anuncio?</label>
-            <input type="button" value="Publicar" id="botonPublicar" name="botonPublicar"/>
-            <input type="button" value="Cancelar" id="botonCancel" name="botonCancel"/> 
-            <label>Los campos marcados con * son obligatorios</label>
-        </form>
-    </div> 
+<div id="contPerfil">
+    <div id="navPerfil">
+        <input type="button" id="bEditarPefil" value="Editar Perfil">
+        <input type="button" id="bAnunciosFav" value="Anuncios Favoritos">
+        <input type="button" id="bAnunciosPerfil" value="Mis anuncios">
+    </div>
+    <div id="contAnuncios">
+        ANUNCIOFAV
+    </div>
+</div>
 <footer>
     <div id="licencia">
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
@@ -114,7 +97,6 @@
         <img src="./Media/iconos/valid-css2.png" alt="CSS valid"/>
     </div>
 </footer>
-<script src="anuncio.js"></script>
-
+<script src="perfil.js"></script>
 </body>
 </html>
