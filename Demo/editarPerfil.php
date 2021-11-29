@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <title>LoVendo! - Perfil</title>
+    <title>LoVendo! - Inicio</title>
 </head>
 <body>
 <header>
@@ -25,7 +25,7 @@
             <input type="text" id="busqueda" placeholder="Buscador"/>
             <input type="button" id="buscar" value="Buscar"/>
         </div>
-        <a href="#"><div id="perfil">
+        <a href="./perfil.php"><div id="perfil">
             <i class="fas fa-address-card"></i><p>Sesión</p>
         </div></a>
         <div id="categorias">
@@ -76,45 +76,62 @@
         </div>
     </div>
 </div>
-<div id="crearAnuncio">
-        <h1>Crear Anuncio</h1>
-        <form id="formularioAnuncio">
-            <input type="text" name="titulo" id="tituloAnuncio"placeholder="Titulo*" />
-            <textarea cols="30" rows="10" name="descripcion" id="descAnuncio" placeholder="Descripcion*"></textarea>
-            <input type="text" name="precio" id="precioAnuncio" placeholder="Precio*">
-            <select name="selectCat" id="selCategorias" required>
-                <option value="01" selected>Seleccione una categoria*</option>
-                <option value="">Casa y Jardin</option>
-                <option value="">Informatica</option>
-                <option value="">Imagen y sonido</option>
-                <option value="">Juegos</option>
-                <option value="">Moviles y telefonia</option>
-                <option value="">Moda y complementos</option>
-                <option value="">Deportes</option>
-                <option value="">Mascotas</option>
-                <option value="">Aficiones y Ocio</option>
-                <option value="">Motor</option>
-                <option value="">Caza y Pesca</option>
-            </select>
-            <input type="file" id="fotoAnuncio" name="imagen"/>
-            <label>¿Quieres publicar este anuncio?</label>
-            <input type="button" value="Publicar" id="botonPublicar" name="botonPublicar"/>
-            <input type="button" value="Cancelar" id="botonCancel" name="botonCancel"/> 
-            <label>Los campos marcados con * son obligatorios</label>
-        </form>
-    </div> 
-<footer>
+<div id="EditarPerfil">
+    <h1>Editar Perfil</h1>
+    <form id="fPerfil">
+        <label for="usuario">
+            <span>Usuario</span>
+            <input type="text" id="usuario" value="Pepe">
+        </label>
+        <label for="password">
+            <span>Contraseña</span>
+            <input type="password" id="password" value="123123">
+        </label>
+        <label for="email">
+            <span>Email</span>
+            <input type="email" id="email" value="pepe@gmail.com">
+        </label>
+        <label for="telefono">
+            <span>Telefono</span>
+            <input type="number" id="telefono" maxlength="12">
+        </label>
+        <label for="direccion">
+            <span>Direccion</span>
+            <input type="text" id="direccion" maxlength="50">
+        </label>
+        <label for="provincia">
+            <span>Provincia</span>
+            <input type="text" id="provincia" maxlength="50">
+        </label>
+        <label for="localidad">
+            <span>Localidad</span>
+            <input type="text" id="localidad" maxlength="50">
+        </label>
+        <label for="pais">
+            <span>Pais</span>
+            <input type="text" id="pais" maxlength="50">
+        </label>
+        <label for="cp">
+            <span>CP</span>
+            <input type="number" id="cp" maxlength="5">
+        </label>
+        <div id="acciones">
+            <input type="button" id="updatePerfil" value="Actualizar Datos"> <!--color verde-->
+            <input type="button" id="deletePerfil" value="Eliminar Perfil"> <!--color rojo-->
+        </div>
+    </form>
+</div>
+    <footer>
     <div id="licencia">
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
         <p>Esta obra está bajo una
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"> Licencia Creative Commons Atribución 4.0 Internacional</a></p>
     </div>
     <div id="w3">
-        <img src="./Media/iconos/valid-html40.png" alt="HTML valid"/>
-        <img src="./Media/iconos/valid-css2.png" alt="CSS valid"/>
+        <img src="./MEDIA/ICONOS/valid-html40.png" alt="HTML valid"/>
+        <img src="./MEDIA/ICONOS/valid-css2.png" alt="CSS valid"/>
     </div>
 </footer>
-<script src="anuncio.js"></script>
-
+<script src="./editarPerfil.js"></script>
 </body>
 </html>

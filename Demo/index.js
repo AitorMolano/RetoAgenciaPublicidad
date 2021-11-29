@@ -1,20 +1,3 @@
-
-$(document).ready(function() {
-    crearEventos();
-});
-
-function crearEventos() {
-    $("#bEditarPefil").click(function() {
-        window.location.href="./editarPerfil.php";
-    });
-    $("#bAnunciosFav").click(function() {
-        window.location.href="./misfavs.php";
-    });
-    $("#bAnunciosPerfil").click(function() {
-        window.location.href="./misanuncios.php";
-    });
-}
-
 $("#botonMenu").click(function(){
     mostrarMenu();
 });

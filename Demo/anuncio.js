@@ -4,10 +4,13 @@ $(document).ready(function() {
 
 function crearEventos() {
     $("botonPublicar").click(function() {
-        windows.location.href("verProducto.php");
+        window.location.href("verProducto.php");
     });
     $("botonCancel").click(function() {
-        windows.location.href("verProducto.php");
+        var r = confirm("¿Seguro que quieres cancelar este anuncio?");
+    if (r == true) {
+      window.location.href("verProducto.php");
+    } 
     });
 }
 
