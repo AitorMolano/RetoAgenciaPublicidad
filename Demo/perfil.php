@@ -81,6 +81,7 @@
     <div id="navPerfil">
         <input type="button" id="bEditarPefil" value="Editar Perfil">
         <input type="button" id="bAnunciosFav" value="Anuncios Favoritos">
+        <input type="button" id="bNuevoAnuncio" value="Nuevo anuncio">
         <input type="button" id="bAnunciosPerfil" value="Mis anuncios">
     </div>
     <div id="contAnuncios">

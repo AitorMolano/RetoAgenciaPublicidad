@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 function crearEventos() {
     $("botonPublicar").click(function() {
-        window.location.href("verProducto.php");
+        window.location.href="verProducto.php";
     });
     $("botonCancel").click(function() {
         var r = confirm("¿Seguro que quieres cancelar este anuncio?");

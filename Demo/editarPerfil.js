@@ -7,7 +7,7 @@ function crearEventos() {
     validarEmail();
     validarPassword();
     $("#updatePerfil").click(function() {
-        window.location.href="./perfil.php";
+        window.location.href="perfil.php";
     });
     $("#deletePerfil").click(function() {
         var si = confirm("Se eliminará el perfil permanentemente. ¿Esta seguro?");

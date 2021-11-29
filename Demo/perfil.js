@@ -7,7 +7,10 @@ function crearEventos() {
     $("#bEditarPefil").click(function() {
         window.location.href="./editarPerfil.php";
     });
-    $("#bAnunciosFav").click(function() {
+    $("#bAnunciosPerfil").click(function() {
+        window.location.href="./anuncio.php";
+    });
+    $("#bNuevoAnuncio").click(function() {
         window.location.href="./misfavs.php";
     });
     $("#bAnunciosPerfil").click(function() {

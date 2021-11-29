@@ -430,15 +430,15 @@ footer{
 }
 
 #filtrados select{
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius:15px;
 }
 
 #contenedor {
     display: grid;
     grid-gap: .5em;
-    grid-template-columns:25% 70%;
+    grid-template-columns:40% 60%;
 }
 
   
@@ -504,7 +504,6 @@ fieldset legend{
     }
    
     #detalles{
-        width: 225%;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -521,7 +520,6 @@ fieldset legend{
     }
 
     #detalles{
-        width: 325%;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -531,7 +529,7 @@ fieldset legend{
 /*Formulario correo*/
 
 .cuerpo{
-    margin-top: 1.5em;
+    margin: 0 auto;
     width: 25em;
     padding: 1em;
     border-radius: 15px;

@@ -11,11 +11,11 @@ $(document).ready(function() {
 
 function crearEventos() {
     $("#bLogin").click(function() {
-        window.location.href="./index.php";
+        window.location.href="index.php";
     });
 
     $("#bRegistrarse").click(function() {
-        window.location.href="./registrarse.php";  
+        window.location.href="registrarse.php";  
     });
 }
 
