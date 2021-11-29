@@ -80,11 +80,14 @@
     <div id="navPerfil">
         <input type="button" id="bEditarPefil" value="Editar Perfil">
         <input type="button" id="bAnunciosFav" value="Anuncios Favoritos">
+        <input type="button" id="bNuevoAnuncio" value="Nuevo anuncio">
         <input type="button" id="bAnunciosPerfil" value="Mis anuncios">
     </div>
     <div id="contAnuncios">
-        ULTIMO ANUNCIO CREADO
+        <p>Tus anuncios publicados</p>
+        <div id="producto"><p>Nombre: Iphone X</p><p>Precio: 999€</p><a href="verDetalles.php">Ver más</a><div id="cambiarIcono"></div>
     </div>
+</div>
 </div>
 <footer>
     <div id="licencia">

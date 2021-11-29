@@ -81,6 +81,7 @@
     <div id="navPerfil">
         <input type="button" id="bEditarPefil" value="Editar Perfil">
         <input type="button" id="bAnunciosFav" value="Anuncios Favoritos">
+        <input type="button" id="bNuevoAnuncio" value="Nuevo anuncio">
         <input type="button" id="bAnunciosPerfil" value="Mis anuncios">
     </div>
     <div id="contAnuncios">
@@ -88,6 +89,8 @@
         <div id="producto"><p>Nombre: Radiador</p><p>Precio: 69.99€</p><a href="verDetalles.php">Ver mas</a><div id="cambiarIcono"></div>
     </div>
 </div>
+</div>
+<footer>
     <div id="licencia">
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
         <p>Esta obra está bajo una
@@ -99,6 +102,5 @@
     </div>
 </footer>
 <script src="perfil.js"></script>
-
 </body>
 </html>

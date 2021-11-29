@@ -99,6 +99,6 @@
         <img src="./MEDIA/ICONOS/valid-css2.png" alt="CSS valid"/>
     </div>
 </footer>
-<script src="./perfil.js"></script>
+<script src="perfil.js"></script>
 </body>
 </html>

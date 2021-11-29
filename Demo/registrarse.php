@@ -28,7 +28,7 @@
                 <input type="password" id="password" maxlenght="50" required>
             </label>
             <label for="confPassword">
-                <span>Contraseña</span>
+                <span>Repetir Contraseña</span>
                 <input type="password" id="confPassword" required>
             </label>
             <input type="button" id="bRegistrarse" value="Registrate">

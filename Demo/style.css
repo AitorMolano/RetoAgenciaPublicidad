@@ -228,6 +228,7 @@ footer{
     flex-direction: column;
 }
 #navPerfil{
+
     display: flex;
     justify-content: space-between;
     border-bottom: solid #263960 1.6px;

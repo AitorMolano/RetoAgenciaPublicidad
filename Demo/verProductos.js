@@ -1,6 +1,27 @@
 $(document).ready(function () {
     cambiarIcono();
-    //crearEventos();
+});
+
+$("#botonMenu").click(function(){
+    mostrarMenu();
+});
+
+function mostrarMenu(){  
+    document.getElementById("menu").style.display = "none";
+    if(screen.width <= 480){
+        document.getElementById("menu-vertical").style.width = "100%";
+    }else{
+        document.getElementById("menu-vertical").style.width = "45%";
+    }
+};
+
+function ocultarMenu() {
+    document.getElementById("menu-vertical").style.width = "0";
+    document.getElementById("menu").style.display = "inline";
+};
+
+$("#bBuscar").click(function(){
+    window.location.href="verProducto..php";
 });
 
 function cambiarIcono(){
@@ -14,7 +35,7 @@ function cambiarIcono(){
             $("#cambiarIcono").append("<i class=\"far fa-heart fav sinMarcar\"></i>");
         }
     });
-}
+};
 
 /*function crearEventos() {
     $("#bBuscar").click(function(){

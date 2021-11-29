@@ -5,16 +5,16 @@ $(document).ready(function() {
 
 function crearEventos() {
     $("#bEditarPefil").click(function() {
-        window.location.href="./editarPerfil.php";
-    });
-    $("#bAnunciosPerfil").click(function() {
-        window.location.href="./anuncio.php";
+        window.location.href="editarPerfil.php";
     });
     $("#bNuevoAnuncio").click(function() {
-        window.location.href="./misfavs.php";
+        window.location.href="anuncio.php";
+    });
+    $("#bAnunciosFav").click(function() {
+        window.location.href="anunciosFav.php";
     });
     $("#bAnunciosPerfil").click(function() {
-        window.location.href="./misanuncios.php";
+        window.location.href="misanuncios.php";
     });
 }
 

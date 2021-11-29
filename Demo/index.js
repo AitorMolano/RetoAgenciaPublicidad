@@ -2,6 +2,10 @@ $("#botonMenu").click(function(){
     mostrarMenu();
 });
 
+$("#buscar").click(function(){
+	window.location.href="verProducto.php";
+});
+
 function mostrarMenu() {  
     document.getElementById("menu").style.display = "none";
     if(screen.width <= 480){

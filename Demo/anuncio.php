@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <title>LoVendo! - Perfil</title>
+    <title>LoVendo! - Nuevo Anuncio</title>
 </head>
 <body>
 <header>
@@ -97,11 +97,12 @@
                 <option value="">Caza y Pesca</option>
             </select>
             <input type="file" id="fotoAnuncio" name="imagen"/>
-            <label>¿Quieres publicar este anuncio?</label>
-            <input type="button" value="Publicar" id="botonPublicar" name="botonPublicar"/>
-            <input type="button" value="Cancelar" id="botonCancel" name="botonCancel"/> 
+            </form>
+            <label>¿Quieres publicar este anuncio?</label><br>
+            <input type="button" value="Publicar" id="botonPublicar"/>
+            <input type="button" value="Cancelar" id="botonCancel"/> <br>
             <label>Los campos marcados con * son obligatorios</label>
-        </form>
+        
     </div> 
 <footer>
     <div id="licencia">
@@ -115,6 +116,5 @@
     </div>
 </footer>
 <script src="anuncio.js"></script>
-
 </body>
 </html>
