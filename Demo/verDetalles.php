@@ -151,6 +151,9 @@
     </div>
 </div>
     </fieldset>
+    <?php 
+    require "EnviarFormulario.php";
+    ?>
 </div>   
 </body>
     <footer>

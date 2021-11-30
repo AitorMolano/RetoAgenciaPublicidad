@@ -2,7 +2,7 @@ $(document).ready(function () {
     cambiarIcono();
 });
 
-$("#botonMenu").click(function(){
+$("#menu").click(function(){
     mostrarMenu();
 });
 

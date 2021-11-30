@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <title>LoVendo! - Tienda</title>
+    <title>LoVendo! - Inicio</title>
 </head>
-
 <body>
 <header>
         <div id="logotipo">
@@ -30,7 +29,7 @@
             <i class="fas fa-address-card"></i><p>Sesión</p>
         </div></a>
         <div id="categorias">
-            <a href="#" onclick="ocultarMenu()"><div id="Casa y jardin">
+            <a href="verProducto..php" onclick="ocultarMenu()"><div id="Casa y jardin">
                 <i class="fas fa-home"></i>
                 <p>Casa y Jardin</p>
             </div></a>
@@ -46,7 +45,7 @@
                 <i class="fas fa-gamepad"></i>
                 <p>Juegos</p>
             </div></a>
-            <a href="#" onclick="ocultarMenu()"><div id="Moviles y telefonia">
+            <a href="verProducto .php" onclick="ocultarMenu()"><div id="Moviles y telefonia">
                 <i class="fas fa-mobile-alt"></i>
                 <p>Moviles y telefonía</p>
             </div></a>
@@ -77,9 +76,10 @@
         </div>
     </div>
 </div>
+<body>
 <div id="contenido">
     <h1 id="titulo">Busqueda avanzanda</h1>
-    <form method="get" action="verPHP.php">
+    <form action="verProducto.php" method="GET">
         <div class="container-1">
             <input type="text" id="busqueda" name="producto" placeholder="Search...">
             <input type="submit" id="bBuscar" value="Buscar">
@@ -126,25 +126,14 @@
         </div>   
     </form>
     <fieldset>
-    <legend><h1>Catalogo de productos</h1></legend>
+    <legend><h2>Catalogo de productos</h2></legend>
     <div id="contAnuncios">
-        <div id="producto"><p>Nombre: Radiador</p><p>Precio: 69.99€</p><a href="verDetalles.php">Ver mas</a><div id="cambiarIcono"><i class="far fa-heart fav sinMarcar"></i></div></div>
-        <div id="producto"><p>Nombre: Ordenador portatil mac nuevo</p><p>Precio: 450€</p><a href="verDetalles.php">Ver mas</a><div id="cambiarIcono"><i class="far fa-heart fav sinMarcar"></i></div></div>
-        <div id="producto"><p>Nombre: Camara Canon 450L</p><p>Precio: 300€</p><a href="verDetalles.php">Ver mas</a><div id="cambiarIcono"><i class="far fa-heart fav sinMarcar"></i></div></div>
-        <div id="producto"><p>Nombre: FIFA 2008</p><p>Precio: 80€</p><a href="verDetalles.php">Ver mas</a><div id="cambiarIcono"><i class="far fa-heart fav sinMarcar"></i></div></div>
-        <div id="producto"><p>Nombre: Xiaomi redmi x5</p><p>Precio: 120€</p><a href="verDetalles.php">Ver mas</a><div id="cambiarIcono"><i class="far fa-heart fav sinMarcar"></i></div></div>
-        <div id="producto"><p>Nombre: Vestido Breska</p><p>Precio: 20€</p><a href="verDetalles.php">Ver mas</a><div id="cambiarIcono"><i class="far fa-heart fav sinMarcar"></i></div></div>
-        <div id="producto"><p>Nombre: Bici mountain bike</p><p>Precio: 70€</p><a href="verDetalles.php">Ver mas</a><div id="cambiarIcono"><i class="far fa-heart fav sinMarcar"></i></div></div>
-        <div id="producto"><p>Nombre: Regalo gato</p><p>Precio: 1€</p><a href="verDetalles.php">Ver mas</a><div id="cambiarIcono"><i class="far fa-heart fav sinMarcar"></i></div></div>
-        <div id="producto"><p>Nombre: Pelicula spiderman vs aliens</p><p>Precio: 20€</p><a href="verDetalles.php">Ver mas</a><div id="cambiarIcono"><i class="far fa-heart fav sinMarcar"></i></div></div>
-        <div id="producto"><p>Nombre: Guardabarro ibiza 2000</p><p>Precio: 100€</p><a href="verDetalles.php">Ver mas</a><div id="cambiarIcono"><i class="far fa-heart fav sinMarcar"></i></div></div>
-        <div id="producto"><p>Nombre: Anzuelos buenos</p><p>Precio: 15€</p><a href="verDetalles.php">Ver mas</a><div id="cambiarIcono"><i class="far fa-heart fav sinMarcar"></i></div></div>
         <div id="producto"><p>Nombre: Iphone X</p><p>Precio: 999€</p><a href="verDetalles..php">Ver mas</a><div id="cambiarIcono"><i class="far fa-heart fav sinMarcar"></i></div></div>
     </div>
     </fieldset>
-</div> 
-<script src="verProductos.js"></script>  
-    <footer>
+</div>   
+<script type="text/javascript" src="verProductos.js"></script>
+<footer>
     <div id="licencia">
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
         <p>Esta obra está bajo una
@@ -156,5 +145,6 @@
     </div>
 </footer>
 </body>
+
 
 </html>

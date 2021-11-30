@@ -108,7 +108,7 @@ function validarConfPassword() {
 function registrar() {
     $("#bRegistrarse").click(function() {
         alert("Nuevo usuario registrado!!!")
-        window.location.href="./login.php";
+        window.location.href="index.php";
     });
 }
 

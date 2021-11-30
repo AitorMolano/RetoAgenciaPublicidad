@@ -11,7 +11,7 @@ function crearEventos() {
     });
     $("#deletePerfil").click(function() {
         var si = confirm("Se eliminará el perfil permanentemente. ¿Esta seguro?");
-        if(si){window.location.href="login.php";}
+        if(si){window.location.href="index.php";}
     });
 }
 

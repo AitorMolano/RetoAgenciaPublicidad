@@ -10,9 +10,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <title>LoVendo! - Detalle</title>
 </head>
-<script src="verProductos.js"></script>
-    <script src="jquery-3.5.1.js"></script>
-    <script src="verProductos.js"></script>
+
+
 </head>
 <body>
     <header>
@@ -151,8 +150,11 @@
     </div>
 </div>
     </fieldset>
-</div>   
-</body>
+        <?php 
+    require "EnviarFormulario.php";
+    ?>
+</div>  
+<script src="verProductos.js"></script> 
     <footer>
     <div id="licencia">
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
@@ -164,5 +166,7 @@
         <img src="./MEDIA/ICONOS/valid-css2.png" alt="CSS valid"/>
     </div>
 </footer>
+</body>
+
 </html>
 

@@ -10,7 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <title>LoVendo! - Tienda</title>
 </head>
-<script src="verProductos.js"></script>
+
 <body>
 <header>
         <div id="logotipo">
@@ -131,8 +131,7 @@
         <div id="producto"><p>Nombre: Radiador</p><p>Precio: 69.99€</p><a href="verDetalles.php">Ver mas</a><div id="cambiarIcono"><i class="far fa-heart fav sinMarcar"></i></div></div>
     </div>
     </fieldset>
-</div>   
-</body>
+</div>  
     <footer>
     <div id="licencia">
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
@@ -143,5 +142,8 @@
         <img src="./MEDIA/ICONOS/valid-html40.png" alt="HTML valid"/>
         <img src="./MEDIA/ICONOS/valid-css2.png" alt="CSS valid"/>
     </div>
-</footer>
+</footer> 
+<script src="verProductos.js"></script>
+</body>
+
 </html>
