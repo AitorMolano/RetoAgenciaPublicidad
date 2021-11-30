@@ -129,7 +129,9 @@
     </form>
     <fieldset>
     <legend><h1>Catalogo de productos</h1></legend>
+
     <div id="detalles">
+            <div id="Imagen"><img src="MEDIA/IMAGENES/iphone.jpeg"></div>
     <div id="contenedor">
     <div>
         <p>Nombre</p>

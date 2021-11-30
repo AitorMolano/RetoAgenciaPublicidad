@@ -130,7 +130,9 @@
     </form>
     <fieldset>
     <legend><h1>Catalogo de productos</h1></legend>
+
     <div id="detalles">
+        <div id="Imagen"><img src="MEDIA/IMAGENES/radiador.jpeg"></div>
     <div id="contenedor">
     <div>
         <p>Nombre</p>
